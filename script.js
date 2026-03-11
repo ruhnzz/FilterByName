@@ -55,7 +55,7 @@ const users = [
     bio: "Software developer who enjoys learning new technologies and solving problems."
 },
 {
-    name: " Neha Kulkarni",
+    name: "Neha Kulkarni",
     pic: "https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d29tYW58ZW58MHx8MHx8fDA%3D",
     bio: "Creative thinker passionate about design systems and digital products."
 },
@@ -103,11 +103,10 @@ showUser(users);
 document.querySelector("input").addEventListener("input",()=>{
     let input = document.querySelector("input");
     let find = input.value
-    let newUsers=users.filter((user)=>{
-            if(user.name.startsWith(find)){
-                return true;
-            }
-    })
+    let newUsers=users.filter((user)=>user.name.toLowerCase().includes(find.toLowerCase()))
+        //            if(user.name.startsWith(find.to())){
+        // best to use includes it also works with second name 
+    
     document.querySelector(".container").innerHTML="";
     showUser(newUsers);
 })

@@ -103,10 +103,23 @@ showUser(users);
 document.querySelector("input").addEventListener("input",()=>{
     let input = document.querySelector("input");
     let find = input.value
-    let newUsers=users.filter((user)=>user.name.toLowerCase().includes(find.toLowerCase()))
+    let newUsers=users.filter((user)=>{
+        if(user.name.toLowerCase().includes(find.toLowerCase())){
+            return true;
+        }
+
+    })
         //            if(user.name.startsWith(find.to())){
         // best to use includes it also works with second name 
     
     document.querySelector(".container").innerHTML="";
+    if(newUsers.length===0){
+        let h1 = document.createElement("h1");
+        h1.classList.add("nouser")
+        h1.textContent="No User Found";
+        document.querySelector(".container").appendChild(h1);
+    }
+    else{
     showUser(newUsers);
+    }
 })

@@ -196,14 +196,17 @@ Building this project strengthened my understanding of JavaScript fundamentals a
 
 <img width="1920" height="879" alt="Screenshot 2026-03-11 221610" src="https://github.com/user-attachments/assets/b6c1aa41-a7b4-4027-a572-d53ff528c4a3" />
 
-after filtering
-<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/977d6090-07ad-4861-93cf-3b058f69c498" />
 
-<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/a24b327e-9f63-4bc0-93d2-890ec414177c" />
+### after filtering
+<img width="1920" height="697" alt="Screenshot 2026-03-11 221817" src="https://github.com/user-attachments/assets/87d684b7-feea-4246-b188-4694cbb84ef2" />
 
-if the user is not found
+### handles case insensitivity 
+<img width="1920" height="667" alt="Screenshot 2026-03-11 221916" src="https://github.com/user-attachments/assets/980345f0-79a0-432c-a986-e85628b3153b" />
+
+### if the user is not found
 
 <img width="1920" height="518" alt="Screenshot 2026-03-11 223813" src="https://github.com/user-attachments/assets/7b536827-5ea0-4d07-8ddb-d7609075a72c" />
+
 
 
 

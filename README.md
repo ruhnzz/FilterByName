@@ -201,6 +201,12 @@ after filtering
 
 <img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/a24b327e-9f63-4bc0-93d2-890ec414177c" />
 
+if the user is not found
+
+<img width="1920" height="518" alt="Screenshot 2026-03-11 223813" src="https://github.com/user-attachments/assets/7b536827-5ea0-4d07-8ddb-d7609075a72c" />
+
+
+
 
 
 

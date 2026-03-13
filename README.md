@@ -15,7 +15,7 @@ As the user types in the search input field, the application instantly filters a
 * Clean card UI with hover effects
 * Circular profile images
 * Responsive card layout using Flexbox
-* Modern UI with gradient header styling
+* Modern UI with gradient header styling.
 
 ## Technologies Used
 
@@ -206,6 +206,7 @@ Building this project strengthened my understanding of JavaScript fundamentals a
 ### if the user is not found
 
 <img width="1920" height="518" alt="Screenshot 2026-03-11 223813" src="https://github.com/user-attachments/assets/7b536827-5ea0-4d07-8ddb-d7609075a72c" />
+
 
 
 
